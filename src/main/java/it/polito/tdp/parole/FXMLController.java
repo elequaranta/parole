@@ -19,7 +19,7 @@ public class FXMLController {
 	 * inserimento parola: 90871365502100 ns
 	 * cancellazione parola: 90883569112600
 	 * reset: 90902764523800
-	 * 
+	 * vs
 	 * tempi di esecuzione LinkedList:
 	 * inserimento parola: 90902764523800
 	 * cancellazione parola: 90994958305300
@@ -60,7 +60,7 @@ public class FXMLController {
     	}
     	txtResult.setText(ritorno);
     	txtParola.setText("");
-    	txtTempi.setText("Tempi di esecuzione [ns] = " + System.nanoTime());
+    	txtTempi.setText("Tempo di esecuzione [ns] = " + System.nanoTime());
     	
     }
 
@@ -70,7 +70,7 @@ public class FXMLController {
     	elencoParole.clear();
     	txtResult.setText("");
     	txtParola.setText("");
-    	txtTempi.setText("Tempi di esecuzione [ns] = " + System.nanoTime());
+    	txtTempi.setText("Tempo di esecuzione [ns] = " + System.nanoTime());
     }
     
     @FXML
@@ -82,7 +82,7 @@ public class FXMLController {
     	}
     	txtResult.setText(ritorno);
     	txtParola.setText("");
-    	txtTempi.setText("Tempi di esecuzione [ns] = " + System.nanoTime());
+    	txtTempi.setText("Tempo di esecuzione [ns] = " + System.nanoTime());
     }
 
 
